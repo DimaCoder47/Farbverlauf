@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Poppins Extrabold;
+}
+
+#Muster1 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(45deg, red, blue);
+}
+
+#Muster2 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#Muster3 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(90deg in oklab, blue, red);
+}
+
+#Muster4 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+.shorter {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(125deg in hsl shorter hue, red, blue);
+}
+
+.longer {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(125deg in hsl longer hue, red, blue);
+}
+
+#Muster7 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+#Muster8 {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+  background: linear-gradient(
+    to right,
+    red 20%,
+    orange 20% 40%,
+    yellow 40% 60%,
+    green 60% 80%,
+    blue 80%
+  );
+}
+
+#Original {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+#Sky {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(217deg, #0059ff, rgba(0, 255, 38, 0) 70.71%),
+    linear-gradient(127deg, #cfecec, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #151b54, rgba(0, 0, 255, 0) 70.71%);
+}
+
+#Sunrise {
+  width: 100vw;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(217deg, #ff0a0a, rgba(0, 255, 38, 0) 70.71%),
+    linear-gradient(127deg, #ffff00, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, #af0000, rgba(0, 0, 255, 0) 70.71%);
+}
